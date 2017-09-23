@@ -26,6 +26,7 @@
 		5DDDF7D91F76364D00610A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DDDF7DB1F76364D00610A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DDDF7DC1F76364D00610A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DDDF7E41F7636DA00610A6F /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		5DDDF7CC1F76364D00610A6F /* QYAPP */ = {
 			isa = PBXGroup;
 			children = (
+				5DDDF7E31F76367400610A6F /* Common */,
 				5DDDF7CD1F76364D00610A6F /* AppDelegate.h */,
 				5DDDF7CE1F76364D00610A6F /* AppDelegate.m */,
 				5DDDF7D01F76364D00610A6F /* ViewController.h */,
@@ -69,6 +71,14 @@
 				5DDDF7DC1F76364D00610A6F /* main.m */,
 			);
 			path = QYAPP;
+			sourceTree = "<group>";
+		};
+		5DDDF7E31F76367400610A6F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5DDDF7E41F7636DA00610A6F /* define.h */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
